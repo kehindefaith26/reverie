@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL&family=Great+Vibes&family=Lato:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #6A1B1A 0%, #220908 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body {
+  @apply min-h-screen text-cream overflow-x-hidden;
+  background: transparent;
+}
+
+/* Glassmorphism Utility */
+.glass-input {
+  @apply bg-black/20 backdrop-blur-md border border-gold/50 text-cream placeholder-white/50 focus:outline-none focus:border-gold;
+}
+
+/* Text Gradient Utility */
+.text-gradient-gold {
+  @apply bg-gold bg-clip-text text-transparent;
+}
+
+/* Wavy Footer Helper */
+.wavy-footer-path {
+  fill: #6A1B1A;
+}
+
+/* Sparkles Animation */
+@keyframes sparkle {
+
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-sparkle {
+  animation: sparkle 2s infinite ease-in-out;
+}
