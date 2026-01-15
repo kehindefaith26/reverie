@@ -1,5 +1,5 @@
-import goldDivider2 from '../assets/golddivider2.png';
-import goldMask from '../assets/textures/gold-mask.png';
+import goldDivider2 from '../assets/golddivider2.webp';
+import goldMask from '../assets/textures/gold-mask.webp';
 import Sparkles from '../components/Sparkles';
 
 const Confirmation = () => {

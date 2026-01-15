@@ -2,13 +2,13 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import img1 from '../assets/Images/Polaroid image 1.png';
-import img2 from '../assets/Images/Polaroid image 2.png';
-import img3 from '../assets/Images/Polaroid image 3.png';
-import img4 from '../assets/Images/Polaroid image 4.png';
-import img5 from '../assets/Images/Polaroid image 5.png';
-import goldDivider from '../assets/golddivider.png';
-import goldMask from '../assets/textures/gold-mask.png';
+import img1 from '../assets/Images/Polaroid image 1.webp';
+import img2 from '../assets/Images/Polaroid image 2.webp';
+import img3 from '../assets/Images/Polaroid image 3.webp';
+import img4 from '../assets/Images/Polaroid image 4.webp';
+import img5 from '../assets/Images/Polaroid image 5.webp';
+import goldDivider from '../assets/golddivider.webp';
+import goldMask from '../assets/textures/gold-mask.webp';
 
 import Sparkles from '../components/Sparkles';
 

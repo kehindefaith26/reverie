@@ -3,13 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Assets
-import goldDivider2 from '../assets/golddivider2.png';
-import goldMask from '../assets/textures/gold-mask.png';
-import img1 from '../assets/Images/Placeholderimg1.jpg';
-import img2 from '../assets/Images/Placeholderimg2.jpg';
-import img3 from '../assets/Images/Placeholderimg3.jpg';
-import img4 from '../assets/Images/Placeholderimg4.jpg';
-import img5 from '../assets/Images/Placeholderimg5.jpg';
+import goldDivider2 from '../assets/golddivider2.webp';
+import goldMask from '../assets/textures/gold-mask.webp';
+import img1 from '../assets/Images/Placeholderimg1.webp';
+import img2 from '../assets/Images/Placeholderimg2.webp';
+import img3 from '../assets/Images/Placeholderimg3.webp';
+import img4 from '../assets/Images/Placeholderimg4.webp';
+import img5 from '../assets/Images/Placeholderimg5.webp';
 
 // Components
 import Sparkles from '../components/Sparkles';

@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import backBtn from '../assets/backbutton.png';
-import wavyLines from '../assets/wavylines.png';
-import discoBall from '../assets/discolball.png';
-import goldMask from '../assets/textures/gold-mask.png';
-import goldDivider2 from '../assets/golddivider2.png';
+import wavyLines from '../assets/wavylines.webp';
+import discoBall from '../assets/discolball.webp';
+import goldMask from '../assets/textures/gold-mask.webp';
+import goldDivider2 from '../assets/golddivider2.webp';
 import Sparkles from '../components/Sparkles';
 
 const Payment = () => {

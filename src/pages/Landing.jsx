@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import goldDivider from '../assets/golddivider.png';
+import goldDivider from '../assets/golddivider.webp';
 import Sparkles from '../components/Sparkles';
 
 const Landing = () => {
@@ -27,7 +27,7 @@ const Landing = () => {
 
             <div className="relative z-10 flex flex-col items-center w-full px-4">
                 <motion.div variants={itemVariants} className="flex flex-col items-center w-full">
-                    <h1 className="font-header text-5xl md:text-7xl drop-shadow-lg p-2 bg-[url('/src/assets/textures/gold-mask.png')] bg-cover bg-center bg-clip-text text-transparent">
+                    <h1 className="font-header text-5xl md:text-7xl drop-shadow-lg p-2 bg-[url('/src/assets/textures/gold-mask.webp')] bg-cover bg-center bg-clip-text text-transparent">
                         REVERIE
                     </h1>
 

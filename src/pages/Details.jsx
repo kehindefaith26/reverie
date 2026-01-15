@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import backBtn from '../assets/backbutton.png';
-import wavyLines from '../assets/wavylines.png';
-import discoBall from '../assets/discolball.png';
-import goldMask from '../assets/textures/gold-mask.png';
+import wavyLines from '../assets/wavylines.webp';
+import discoBall from '../assets/discolball.webp';
+import goldMask from '../assets/textures/gold-mask.webp';
 
 const Details = () => {
     const location = useLocation();
